@@ -1,0 +1,41 @@
+/* GENERALE */
+
+.container
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#left-column:nth-child(1) {
+	order: 1;
+}
+
+#right-column
+{
+	width: 90%;
+	margin: auto;
+}
+
+#left-column
+{
+	width: 90%;
+	margin: auto;
+}
+
+.box
+{
+	flex-direction: column;
+    display: block;
+    margin-bottom: 50px;
+}
+
+dd
+{
+	margin-top:8px;
+}
+
+#recommandations .box div
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
